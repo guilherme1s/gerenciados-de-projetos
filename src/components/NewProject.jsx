@@ -33,7 +33,7 @@ export default function NewProject({ onAdd, onCancel }) {
 
   return (
     <>
-      <Modal ref={modal} buttonCaption="Okay">
+      <Modal ref={modal} buttonCaption="Ok">
         <h2 className="text-xl font-bold text-stone-500 mt-4 my-4">
           Input inválido
         </h2>

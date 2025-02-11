@@ -7,10 +7,10 @@ export function SelectedProject({
   onDeleteTask,
   tasks
 }) {
-  const formattedDate = new Date(project.dueDate).toLocaleDateString("pt-BR", {
-    year: "numeric",
-    month: "short",
+  const formattedDate = new Date(project.dueDate).toLocaleDateString("pt-br", {
     day: "numeric",
+    month: "short",
+    year: "numeric",
   });
 
   return (
